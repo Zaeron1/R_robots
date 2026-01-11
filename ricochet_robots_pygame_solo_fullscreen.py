@@ -717,10 +717,6 @@ class Game:
                 col = ROBOT_COLORS[tgt["color_i"]][1]
                 draw_symbol(self.screen, tgt["symbol"], r.center, TILE // 2 - 14, col)
 
-        # current target highlight
-        tx, ty = self.board.idx_to_xy[self.current_target["idx"]]
-        pygame.draw.rect(self.screen, (245, 245, 245), self.cell_rect(tx, ty), width=3)
-
         # walls (white) + remove internal walls inside blocked block
         wall_col = (245, 245, 245)
         thick = 4
