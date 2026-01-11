@@ -1,0 +1,29 @@
+{
+  "name": "a2",
+  "size": 8,
+  "coord_system": "inner",
+  "walls": [
+    { "x": 0, "y": 2, "dir": "R" },
+    { "x": 0, "y": 2, "dir": "U" },
+
+    { "x": 2, "y": 5, "dir": "U" },
+    { "x": 2, "y": 5, "dir": "L" },
+
+    { "x": 3, "y": 7, "dir": "R" },
+
+    { "x": 5, "y": 3, "dir": "D" },
+    { "x": 5, "y": 3, "dir": "L" },
+
+    { "x": 6, "y": 1, "dir": "D" },
+    { "x": 6, "y": 1, "dir": "R" },
+
+    { "x": 7, "y": 2, "dir": "D" }
+  
+  ],
+  "targets": [
+    { "x": 5, "y": 3, "color": "GREEN",    "symbol": "CIRCLE" },
+    { "x": 2, "y": 5, "color": "BLUE",   "symbol": "DIAMOND" },
+    { "x": 0, "y": 2, "color": "RED",  "symbol": "TRI" },
+    { "x": 6, "y": 1, "color": "YELLOW", "symbol": "SQUARE" }
+  ]
+}

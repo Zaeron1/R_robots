@@ -1,0 +1,29 @@
+{
+  "name": "c1",
+  "size": 8,
+  "coord_system": "inner",
+  "walls": [
+    { "x": 3, "y": 2, "dir": "D" },
+    { "x": 3, "y": 2, "dir": "L" },
+
+    { "x": 6, "y": 1, "dir": "U" },
+    { "x": 6, "y": 1, "dir": "L" },
+
+    { "x": 1, "y": 4, "dir": "U" },
+    { "x": 1, "y": 4, "dir": "R" },
+
+    { "x": 5, "y": 6, "dir": "D" },
+    { "x": 5, "y": 6, "dir": "R" },
+
+    { "x": 7, "y": 2, "dir": "D" },
+
+    { "x": 1, "y": 7, "dir": "R" }
+  
+  ],
+  "targets": [
+    { "x": 5, "y": 6, "color": "YELLOW",    "symbol": "CIRCLE" },
+    { "x": 6, "y": 1, "color": "GREEN",   "symbol": "DIAMOND" },
+    { "x": 1, "y": 4, "color": "BLUE",  "symbol": "TRI" },
+    { "x": 3, "y": 2, "color": "RED", "symbol": "SQUARE" }
+  ]
+}

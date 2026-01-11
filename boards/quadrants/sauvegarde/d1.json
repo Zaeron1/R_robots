@@ -1,0 +1,15 @@
+{
+  "name": "d1",
+  "size": 8,
+  "walls": [
+    { "x": 0, "y": 0, "dir": "U" },
+    { "x": 0, "y": 0, "dir": "L" },
+
+    { "x": 3, "y": 2, "dir": "R" },
+    { "x": 3, "y": 2, "dir": "D" }
+  ],
+  "targets": [
+    { "x": 1, "y": 6, "color": "RED",  "symbol": "CIRCLE" },
+    { "x": 6, "y": 1, "color": "BLUE", "symbol": "DIAMOND" }
+  ]
+}

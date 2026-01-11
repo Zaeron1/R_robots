@@ -1,0 +1,15 @@
+{
+  "name": "a1",
+  "size": 8,
+  "coord_system": "inner",
+  "walls": [
+
+
+  ],
+  "targets": [
+    { "x": 1, "y": 1, "color": "RED",    "symbol": "CIRCLE" },
+    { "x": 5, "y": 1, "color": "BLUE",   "symbol": "DIAMOND" },
+    { "x": 1, "y": 5, "color": "GREEN",  "symbol": "TRI" },
+    { "x": 6, "y": 6, "color": "YELLOW", "symbol": "SQUARE" }
+  ]
+}
